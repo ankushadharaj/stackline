@@ -1,0 +1,55 @@
+.sales-chart-container {
+    width: fit-content;
+    height: fit-content;
+    min-height: 400px;
+    background-color: white;
+    margin: 15px;
+    box-shadow: 0 4px 8px #d9dcdf;
+}
+.sales-chart-title {
+    margin: 15px;
+    font-size: 1em;
+    display: flex;
+}
+.sales-chart {
+    margin-right: 15px;
+    margin-left: -12px;
+    margin-bottom: -25px;
+}
+
+.sales-chart-x-axis {
+    z-index: 1; 
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 2px solid #f0f2f7;
+}
+.sales-chart-label {
+    font-size: 0.9em;
+    font-weight: 80;
+    color: #979a9c;
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.crosshair-overlay {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    width: max-content;
+    box-shadow: 2px solid #f0f2f7;
+    border: 1px solid #f0f2f7;
+}
+.retail-value {
+    opacity: 0.7;
+    color: black;
+    background-color: #969696;
+}
+
+.wholesale-value {
+    opacity: 0.7;
+    color: black;
+    background-color: #03a9f4;
+}
