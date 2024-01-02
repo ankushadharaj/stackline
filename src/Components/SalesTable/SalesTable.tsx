@@ -13,7 +13,6 @@ import { LoadingElement } from '../LoadingElement/LoadingElement';
 import { useGetProductSales } from '../../ReduxStore/product/product.hooks';
 import { getCellElement } from '../../utils/getCellElement';
 import { COLUMNS } from '../../Constants/Table.constants';
-
 import { Sales, Sale } from '../../Types/GetProductSalesDetails.type';
 
 import './SalesTable.css';
