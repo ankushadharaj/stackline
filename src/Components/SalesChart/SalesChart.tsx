@@ -26,7 +26,7 @@ export function SalesChart({ productId }: SalesChartInterface) {
             {isLoading && <LoadingElement />}
             <XYPlot  
                 className="sales-chart"
-                width={1425} 
+                width={1439} 
                 height={400} 
                 strokeWidth={3}
                 yDomain={[0,1500000]}

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 
-import ProductSalesDetails  from './Pages/ProductSalesDetails';
+import ProductSalesDetails  from './Pages/ProductSalesDetails/ProductSalesDetails';
 import Header from './Components/Header/Header';
 import { store } from './ReduxStore/rootReducer';
 

@@ -2,6 +2,7 @@
   "name": "stackline-assement",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ankushadharaj.github.io/stackline",
   "dependencies": {
     "@reduxjs/toolkit": "^2.0.1",
     "@tanstack/match-sorter-utils": "^8.8.4",

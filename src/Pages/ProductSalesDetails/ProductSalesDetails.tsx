@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { ProductDetails } from '../Components/ProductDetails/ProductDetails';
-import { SalesChart } from '../Components/SalesChart/SalesChart';
-import { SalesTable } from '../Components/SalesTable/SalesTable';
+import { ProductDetails } from '../../Components/ProductDetails/ProductDetails';
+import { SalesChart } from '../../Components/SalesChart/SalesChart';
+import { SalesTable } from '../../Components/SalesTable/SalesTable';
 
 import './ProductSalesDetails.css'
 
