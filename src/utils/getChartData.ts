@@ -17,11 +17,12 @@ export function getChartData(productSales: Sales) {
         const label = getMonth(week);
         retailSalesData.push({
             x: week.getTime(),
-            y: sale.retailSales
+            y: sale.retailSales,
+            sale: sale
         });
         wholesaleSalesData.push({
             x: week.getTime(),
-            y: sale.wholesaleSales
+            y: sale.wholesaleSales,
         })
         if(!labels.includes(label)) labels.push(label);
     });

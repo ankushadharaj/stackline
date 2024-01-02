@@ -5,6 +5,7 @@ import { SalesChart } from '../../Components/SalesChart/SalesChart';
 import { SalesTable } from '../../Components/SalesTable/SalesTable';
 
 import './ProductSalesDetails.css'
+import Header from '../../Components/Header/Header';
 
 // Ideally the productId would be obtained from params
 const productId = 'B007TIE0GQ'
@@ -12,6 +13,7 @@ const productId = 'B007TIE0GQ'
 export default function ProductSalesDetails() {
     return (
         <div>
+            <Header />
             <div className="product-container">
                 <div>
                     <ProductDetails productId={productId}/>
