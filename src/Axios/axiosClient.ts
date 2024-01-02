@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 /**
- *  Create a mock api to server the data through an API call using: https://app.wiremock.cloud/
- *      Using a free trail version that will
+ *  Created a mock api to server the data through an API call using: https://app.wiremock.cloud/
+ *      Using a free trail version
  *      Hence this API will be deprecated after 2/28/2024
  */
 
