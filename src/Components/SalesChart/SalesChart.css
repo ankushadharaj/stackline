@@ -43,13 +43,11 @@
     border: 1px solid #f0f2f7;
 }
 .retail-value {
-    opacity: 0.7;
     color: black;
     background-color: #03a9f4;
 }
 
 .wholesale-value {
-    opacity: 0.7;
     color: black;
     background-color: #969696;
 }

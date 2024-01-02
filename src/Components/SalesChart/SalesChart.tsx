@@ -20,7 +20,6 @@ export function SalesChart({ productId }: SalesChartInterface) {
     const [crosshairValues, setCrosshairValues] = useState<LineSeriesPoint[]>([]);
     const [crosshairIndex, setCrosshairIndex] = useState<number | undefined>();
 
-
     return (
         <div className="sales-chart-container">
             <div className="sales-chart-title">Retail Sales</div>
@@ -29,7 +28,7 @@ export function SalesChart({ productId }: SalesChartInterface) {
                 <FlexibleWidthXYPlot  
                     height={400} 
                     strokeWidth={3}
-                    yDomain={[0,1500000]}
+                    yDomain={[0,1500000]} /* Ideally the upper limit would be based on max value of either retail sale or wholesale sale */
                     onMouseLeave={() => {
                         setCrosshairValues([]);
                         setCrosshairIndex(undefined);
