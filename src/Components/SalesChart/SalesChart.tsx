@@ -1,6 +1,5 @@
-import React, { useMemo, useState, useRef, useEffect } from 'react';
-import { XYPlot, LineSeries, Crosshair, LineSeriesPoint, MarkSeries, FlexibleWidthXYPlot } from 'react-vis';
-import AutoSizer from 'react-virtualized-auto-sizer/dist/declarations/src';
+import React, { useMemo, useState } from 'react';
+import { LineSeries, Crosshair, LineSeriesPoint, MarkSeries, FlexibleWidthXYPlot } from 'react-vis';
 import { curveCatmullRom } from 'd3-shape';
 
 import { LoadingElement } from '../LoadingElement/LoadingElement';
@@ -14,8 +13,6 @@ interface SalesChartInterface {
     productId: string
 }
 export function SalesChart({ productId }: SalesChartInterface) {
-    const parentRef = useRef<HTMLDivElement>();
-
     const { productSales, isLoading } = useGetProductSales(productId);
 
     const { labels, retailSalesData, wholesaleSalesData } = useMemo(() => getChartData(productSales!), [productSales]);
